@@ -1,5 +1,3 @@
-import QrScannerWorkerPath from '../node_modules/qr-scanner/qr-scanner-worker.min.js';
-
 export default class QrScanner {
     /* async */
     static hasCamera() {
@@ -323,4 +321,4 @@ export default class QrScanner {
     }
 }
 QrScanner.DEFAULT_CANVAS_SIZE = 400;
-QrScanner.WORKER_PATH = QrScannerWorkerPath;
+QrScanner.WORKER_PATH = '../qr-scanner-worker.min.js';
